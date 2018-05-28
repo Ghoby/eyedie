@@ -1,0 +1,52 @@
+
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: arial;
+    font-weight: bold;
+    line-height: 1.2em;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+#content {
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    background: rgb(66, 66, 66);
+    box-shadow: 0px 1px 1px rgb(211, 211, 211);
+}
+
+#video {
+    margin: auto;
+    width: 50%;
+}
+
+#gallery {
+    margin: auto;
+    width: 80%;
+}
+
+img.snap {
+    margin: auto;
+    width: 30%;
+}
+
+#team {
+    margin: auto;
+    width: 50%;
+}
+
+img.dev {
+    margin: auto;
+    width: 50%;
+}
+
+table {
+    text-align: center;
+}
