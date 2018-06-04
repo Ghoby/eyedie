@@ -3,7 +3,7 @@
     "name": "room_alley",
     "id": "0c93ba2e-de83-4502-adc5-d2f0816204d9",
     "creationCodeFile": "RoomCreationCode.gml",
-    "inheritCode": false,
+    "inheritCode": true,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
@@ -12,7 +12,8 @@
         "37b5826f-8eb4-45c4-ac41-b0a33f4e641e",
         "fdb5f81e-30fb-4c1c-adde-18202ea48b8d",
         "e850c0f9-401a-4584-9bd1-c6e796880899",
-        "e1f33335-6af7-4e3a-ae68-83ee10431208"
+        "e1f33335-6af7-4e3a-ae68-83ee10431208",
+        "1460d109-16cc-4d26-beda-745edecb76ee"
     ],
     "IsDnD": false,
     "layers": [
@@ -228,7 +229,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_5F2C9C88","id": "37b5826f-8eb4-45c4-ac41-b0a33f4e641e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5F2C9C88","objId": "b7bcaec9-34f6-4a9e-8af7-e7a7a6172598","properties": [{"id": "40878df6-05c6-4d6c-9049-079f1dcf7c21","modelName": "GMOverriddenProperty","objectId": "f0b007af-3939-4e36-9287-dadcd97069e7","propertyId": "b39881f2-8827-4e36-ae6c-44b3482b2e9b","mvc": "1.0","value": "Cupholder from Jodi's Bar"},{"id": "8d505140-46ef-4e55-8ce9-2689bcc06c8f","modelName": "GMOverriddenProperty","objectId": "f0b007af-3939-4e36-9287-dadcd97069e7","propertyId": "ca594273-db76-4cba-9578-4f57c03681b1","mvc": "1.0","value": "Cupholder"}],"rotation": 0,"scaleX": 0.95,"scaleY": 0.95,"mvc": "1.0","x": 960,"y": 448}
+{"name": "inst_5F2C9C88","id": "37b5826f-8eb4-45c4-ac41-b0a33f4e641e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5F2C9C88","objId": "b7bcaec9-34f6-4a9e-8af7-e7a7a6172598","properties": [{"id": "40878df6-05c6-4d6c-9049-079f1dcf7c21","modelName": "GMOverriddenProperty","objectId": "f0b007af-3939-4e36-9287-dadcd97069e7","propertyId": "b39881f2-8827-4e36-ae6c-44b3482b2e9b","mvc": "1.0","value": "Cupholder from Jodi's Bar"},{"id": "8d505140-46ef-4e55-8ce9-2689bcc06c8f","modelName": "GMOverriddenProperty","objectId": "f0b007af-3939-4e36-9287-dadcd97069e7","propertyId": "ca594273-db76-4cba-9578-4f57c03681b1","mvc": "1.0","value": "Cupholder"}],"rotation": 0,"scaleX": 0.95,"scaleY": 0.95,"mvc": "1.0","x": 960,"y": 448},
+{"name": "inst_680CA0A3","id": "1460d109-16cc-4d26-beda-745edecb76ee","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_680CA0A3","objId": "f0b007af-3939-4e36-9287-dadcd97069e7","properties": [{"id": "e727cec9-91a9-40a3-b570-19ab81b25ea3","modelName": "GMOverriddenProperty","objectId": "f0b007af-3939-4e36-9287-dadcd97069e7","propertyId": "b39881f2-8827-4e36-ae6c-44b3482b2e9b","mvc": "1.0","value": "Owner: Laura"},{"id": "5d40eb2c-08ec-4211-9609-a7712285df66","modelName": "GMOverriddenProperty","objectId": "f0b007af-3939-4e36-9287-dadcd97069e7","propertyId": "ca594273-db76-4cba-9578-4f57c03681b1","mvc": "1.0","value": "Blood"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 399,"y": 459}
             ],
             "layers": [
 

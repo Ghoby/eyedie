@@ -8,9 +8,15 @@ if(myTextbox != noone && myTextbox.joeDialogueTurn == false && hasMetJoe == fals
       line++;
       myTextbox.charCount = 0;
     } else {
-      hasMetJoe = false;
-      myTextbox.joeDialogueTurn = true;
-      myTextbox.text = joeDialogue;  
+		if (global.diane_toEnd == true) {
+			write_to_registry("Time to finish game: " + string(get_timer()/1000000) + "s");
+			room_goto(room_end);
+		}
+		else {
+			hasMetJoe = false;
+		    myTextbox.joeDialogueTurn = true;
+		    myTextbox.text = joeDialogue;  
+		}
     }
   }
   
@@ -44,15 +50,14 @@ if(myTextbox != noone && myTextbox.joeDialogueTurn == false && hasMetJoe == fals
 		    myTextbox.text = myDialogue;  
 			
 			if(global.diane_infoAboutLaura == true) {
-				if (toEnd == false) {
+				if (global.diane_infoAboutLocation == false) {
 					ds_list_replace(joeDialogueList, 1, "Where should I go? Tell me.");
 					ds_list_replace(joeDialoguePickedList, 1, 0);
 					ds_list_replace(joeDialoguePagesList, 1, 4);
-					toEnd = true;
-					write_to_registry("Time to finish game: " + string(get_timer()/1000000) + "s");
-					close_registry();
+					global.diane_infoAboutLocation = true;
+					
 				} else {
-					// JOGO ACABA
+					global.diane_toEnd = true;
 				}
 			} else {
 				global.diane_infoAboutLaura = true;

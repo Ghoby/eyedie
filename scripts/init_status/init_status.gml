@@ -5,7 +5,37 @@
 
 global.playerID = "A1"; 
 
+
+
+/*IDs used
+
+
+
+*/
+
 //########################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -53,6 +83,8 @@ global.jackie_joeDialoguePickedList = ds_list_create();
 global.jackie_joeDialogueList = ds_list_create();
 global.jackie_joeDialoguePagesList = ds_list_create();
 
+global.jackie_is_pised = false;
+
 // Jodi related variables
 global.jodi_hasMetJoe = false;
 global.jodi_joeDialoguePickedList = ds_list_create();
@@ -74,6 +106,8 @@ global.diane_joeDialoguePickedList = ds_list_create();
 global.diane_joeDialogueList = ds_list_create();
 global.diane_joeDialoguePagesList = ds_list_create();
 global.diane_infoAboutLaura = false;
+global.diane_infoAboutLocation = false;
+global.diane_toEnd = false;
 
 global.joePosX = 0;
 global.joePosY = 0;

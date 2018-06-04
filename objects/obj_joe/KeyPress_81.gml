@@ -1,6 +1,7 @@
 /// @description Cyber Eye
 
 global.is_eye_on = !global.is_eye_on;
+cyber_eye_effect.visible = global.is_eye_on;
 
 if(global.is_eye_on == true) {
 	global.EyeCounter += 1;

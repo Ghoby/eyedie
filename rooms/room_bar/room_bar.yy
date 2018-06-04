@@ -3,7 +3,7 @@
     "name": "room_bar",
     "id": "f18b86d6-b6b2-4666-941a-f2dec0af0e94",
     "creationCodeFile": "RoomCreationCode.gml",
-    "inheritCode": false,
+    "inheritCode": true,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [

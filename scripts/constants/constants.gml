@@ -1,6 +1,6 @@
 
 // Genereal
-#macro START_ROOM						room_city
+#macro START_ROOM						room_start_menu
 										
 // Player								
 #macro PLAYER_SPEED						1.75
@@ -18,14 +18,14 @@
 										
 #macro OVERLAY_RECT_WIDTH				100
 #macro OVERLAY_RECT_HEIGHT				40
-#macro OVERLAY_BACK_COLOR				c_navy
+#macro OVERLAY_BACK_COLOR				c_aqua
 #macro OVERLAY_ALPHA					0.5
 #macro OVERLAY_ALPHA_SHORT				0.25
 
 #macro OVERLAY_TEXT_MARGIN				4
 #macro OVERLAY_TITLE_SCALE				1.2
 #macro OVERLAY_TITLE_SCALE_SHORT		1
-#macro OVERLAY_TEXT_COLOR				c_silver
+#macro OVERLAY_TEXT_COLOR				c_white
 #macro OVERLAY_DESCRIPTION_MAX_CHARS	40
 
 #macro OVERLAY_ACTIVATE_DISTANCE		50
@@ -98,9 +98,14 @@
 #macro BLOOM_INTENSITY					1
 #macro BLOOM_SIZE						1
 
+// Transitions
+#macro ALLEY_TO_ROOM					900
+#macro LOBBY_TO_CITY					450
 
-
-
+// Effects
+#macro EFFECT_DEPTH						-100
+#macro EFFECT_EYE_ALPHA					0.3
+#macro EFFECT_SCREEN_ALPHA				0.5
 
 
 

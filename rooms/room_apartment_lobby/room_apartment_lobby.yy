@@ -3,7 +3,7 @@
     "name": "room_apartment_lobby",
     "id": "6795f2e0-4dc0-4a5e-bb73-3f4c522a0493",
     "creationCodeFile": "RoomCreationCode.gml",
-    "inheritCode": false,
+    "inheritCode": true,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
@@ -11,7 +11,8 @@
         "9596a069-f4a0-416d-b811-90bed7098e29",
         "559ee8d6-c192-43a2-b92e-a3cd426e8347",
         "4b936471-699b-4b87-b10a-961e664a61e5",
-        "20eb7b0e-ee67-4918-80c5-abb6e96eafb0"
+        "20eb7b0e-ee67-4918-80c5-abb6e96eafb0",
+        "95e89699-2a79-45fa-8335-5a2219da0ddc"
     ],
     "IsDnD": false,
     "layers": [
@@ -150,7 +151,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_3373DB3E","id": "26d01ea8-7847-471d-bf26-9ee573a513f3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3373DB3E","objId": "6afe2a22-7b95-4b3b-b8ab-b2450498e116","properties": null,"rotation": 0,"scaleX": 2.5,"scaleY": 2.5,"mvc": "1.0","x": 128,"y": 352}
+{"name": "inst_3373DB3E","id": "26d01ea8-7847-471d-bf26-9ee573a513f3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3373DB3E","objId": "6afe2a22-7b95-4b3b-b8ab-b2450498e116","properties": null,"rotation": 0,"scaleX": 2.5,"scaleY": 2.5,"mvc": "1.0","x": 129,"y": 343}
             ],
             "layers": [
 
@@ -176,7 +177,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_21E22803","id": "20eb7b0e-ee67-4918-80c5-abb6e96eafb0","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_21E22803","objId": "fbb7b0fc-5b50-4ca8-bdb3-010421b5cf34","properties": null,"rotation": 0,"scaleX": 2.5,"scaleY": 2.75,"mvc": "1.0","x": 598,"y": 248}
+{"name": "inst_21E22803","id": "20eb7b0e-ee67-4918-80c5-abb6e96eafb0","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_21E22803","objId": "fbb7b0fc-5b50-4ca8-bdb3-010421b5cf34","properties": null,"rotation": 0,"scaleX": 2.5,"scaleY": 2.75,"mvc": "1.0","x": 598,"y": 248},
+{"name": "inst_18E2488A","id": "95e89699-2a79-45fa-8335-5a2219da0ddc","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_18E2488A","objId": "f0b007af-3939-4e36-9287-dadcd97069e7","properties": [{"id": "f65e3876-ea3a-4df0-b360-89fdf0a6cf1f","modelName": "GMOverriddenProperty","objectId": "f0b007af-3939-4e36-9287-dadcd97069e7","propertyId": "ca594273-db76-4cba-9578-4f57c03681b1","mvc": "1.0","value": "Unknown Painting"},{"id": "8cfadab7-871b-483d-b5f1-fdf255fd6fd2","modelName": "GMOverriddenProperty","objectId": "f0b007af-3939-4e36-9287-dadcd97069e7","propertyId": "b39881f2-8827-4e36-ae6c-44b3482b2e9b","mvc": "1.0","value": "You need to buy the ancient art pack to know more."}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 331,"y": 167}
             ],
             "layers": [
 

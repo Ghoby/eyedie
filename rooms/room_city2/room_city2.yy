@@ -3,7 +3,7 @@
     "name": "room_city2",
     "id": "950c62b3-d132-4359-8a56-32b2b54d36ac",
     "creationCodeFile": "RoomCreationCode.gml",
-    "inheritCode": false,
+    "inheritCode": true,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
@@ -13,7 +13,8 @@
         "8c7251f1-85c4-4376-834b-2cebfa93dd6e",
         "e879b2da-2dfa-4045-9fc0-7d8308626b04",
         "0ed480df-b957-4ed2-9fa9-fdc614906570",
-        "1dbc540a-0fb5-442d-b3a8-466a488f5d76"
+        "1dbc540a-0fb5-442d-b3a8-466a488f5d76",
+        "d0b3f267-4821-4f7a-88f3-c4056f205b43"
     ],
     "IsDnD": false,
     "layers": [
@@ -32,9 +33,35 @@
             "layers": [
                 {
                     "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+                    "name": "Triggers2",
+                    "id": "57d3ae24-ebe9-4f7c-b4c4-10e90724a52b",
+                    "depth": 100,
+                    "grid_x": 32,
+                    "grid_y": 32,
+                    "hierarchyFrozen": false,
+                    "hierarchyVisible": true,
+                    "inheritLayerDepth": false,
+                    "inheritLayerSettings": false,
+                    "inheritSubLayers": false,
+                    "inheritVisibility": false,
+                    "instances": [
+{"name": "inst_3A8A0517","id": "d0b3f267-4821-4f7a-88f3-c4056f205b43","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_3A8A0517.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3A8A0517","objId": "50c5aa86-4c85-4a73-ac6c-cf78148ba21e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 2.8125,"mvc": "1.0","x": 465,"y": 323}
+                    ],
+                    "layers": [
+
+                    ],
+                    "m_parentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "modelName": "GMRInstanceLayer",
+                    "mvc": "1.0",
+                    "userdefined_depth": false,
+                    "visible": true
+                },
+                {
+                    "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
                     "name": "Triggers",
                     "id": "6c3f74b9-170e-4efb-b2f6-23ecf4d2c639",
-                    "depth": 100,
+                    "depth": 200,
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
@@ -69,7 +96,7 @@
         {
             "name": "UI",
             "id": "eacdcd60-1e0c-45f5-89a7-af781d6a8e57",
-            "depth": 200,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -83,7 +110,7 @@
                     "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
                     "name": "Text",
                     "id": "070cb28b-a8ac-483f-bebe-d30eff6a2313",
-                    "depth": 300,
+                    "depth": 400,
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
@@ -109,7 +136,7 @@
                     "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
                     "name": "HUD",
                     "id": "d5f36394-3b68-4780-8a29-08ab8817fd3b",
-                    "depth": 400,
+                    "depth": 500,
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
@@ -143,7 +170,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Lights",
             "id": "44f6aeb0-1ff2-40c8-bd19-add28e6feee1",
-            "depth": 500,
+            "depth": 600,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -169,7 +196,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Player",
             "id": "f71c33ca-ea74-4ed5-b183-157990ba5592",
-            "depth": 600,
+            "depth": 700,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -195,7 +222,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Instances",
             "id": "7626fa91-9e27-4d74-9b5c-4a759012b095",
-            "depth": 700,
+            "depth": 800,
             "grid_x": 64,
             "grid_y": 64,
             "hierarchyFrozen": false,
@@ -205,7 +232,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_A4E2608","id": "1dbc540a-0fb5-442d-b3a8-466a488f5d76","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_A4E2608.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_A4E2608","objId": "f454b877-3f81-43ac-82a5-1e660d7445ac","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 180,"y": 325}
+{"name": "inst_A4E2608","id": "1dbc540a-0fb5-442d-b3a8-466a488f5d76","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_A4E2608.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_A4E2608","objId": "f454b877-3f81-43ac-82a5-1e660d7445ac","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 320,"y": 320}
             ],
             "layers": [
 
@@ -221,7 +248,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Interactables",
             "id": "54284d78-d714-4cbe-b18c-3c68827f7ad8",
-            "depth": 800,
+            "depth": 900,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -250,7 +277,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4294967295 },
-            "depth": 900,
+            "depth": 1000,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

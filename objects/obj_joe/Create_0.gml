@@ -1,7 +1,7 @@
 /// @description Joe Init
 scale = image_xscale
-joe_journal_id = instance_create_depth(0, 0, 0, obj_journal);
-joe_inventory_id = instance_create_depth(0, 0, 0, obj_inventory);
+joe_journal_id = instance_create_depth(0, 0, UI_DEPTH - 10, obj_journal);
+joe_inventory_id = instance_create_depth(0, 0, UI_DEPTH - 10, obj_inventory);
 inConversation = false; 
 isTurnToTalk = false;
 myName = "You";
@@ -23,3 +23,6 @@ if (ds_map_exists(global.position_map, room))
 {
 	x = global.position_map[? room];	
 }
+
+cyber_eye_effect = instance_create_depth(0, 0, EFFECT_DEPTH, obj_effect_eye);
+screen_effect = instance_create_depth(0, 0, EFFECT_DEPTH, obj_effect_screen);

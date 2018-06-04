@@ -3,7 +3,7 @@
     "name": "room_apartment_room25",
     "id": "05118a67-be36-4818-8e18-bd78919905ee",
     "creationCodeFile": "RoomCreationCode.gml",
-    "inheritCode": false,
+    "inheritCode": true,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
@@ -11,7 +11,8 @@
         "23c9d7f6-85f3-4437-9bbe-3ffcb15aa3fc",
         "bf8f0227-77b9-4932-bada-c831e3ee3c27",
         "e2bee8dd-d461-46ad-9a5c-f6b099f8283d",
-        "93792414-92a0-43b9-b1f0-45f762303559"
+        "93792414-92a0-43b9-b1f0-45f762303559",
+        "4b1e865d-a274-4625-87d6-995dc3bc1158"
     ],
     "IsDnD": false,
     "layers": [
@@ -175,8 +176,9 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_2C535716","id": "e2bee8dd-d461-46ad-9a5c-f6b099f8283d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2C535716","objId": "64e9fce2-9ca8-4a68-937d-e0ab25df262f","properties": null,"rotation": 0,"scaleX": 2.5,"scaleY": 2.5,"mvc": "1.0","x": 538,"y": 261},
-{"name": "inst_3693BD20","id": "93792414-92a0-43b9-b1f0-45f762303559","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3693BD20","objId": "c02a253f-114b-4c40-b438-638d9dfa94f3","properties": [{"id": "1f4d6e6c-0db1-4697-86e9-af055cd1974b","modelName": "GMOverriddenProperty","objectId": "c02a253f-114b-4c40-b438-638d9dfa94f3","propertyId": "8c12ddc1-df0c-45dc-9cad-e8b5dfb5e26b","mvc": "1.0","value": "room_alley2"},{"id": "ca29a2f5-08bb-4a78-8cd8-4548c9739520","modelName": "GMOverriddenProperty","objectId": "c02a253f-114b-4c40-b438-638d9dfa94f3","propertyId": "70810d87-54e6-4843-9b4e-1871d8bb1735","mvc": "1.0","value": "spr_e_key_right"}],"rotation": 0,"scaleX": 1,"scaleY": 5,"mvc": "1.0","x": 1001,"y": 308}
+{"name": "inst_2C535716","id": "e2bee8dd-d461-46ad-9a5c-f6b099f8283d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2C535716","objId": "64e9fce2-9ca8-4a68-937d-e0ab25df262f","properties": null,"rotation": 0,"scaleX": 2.5,"scaleY": 2.5,"mvc": "1.0","x": 584,"y": 260},
+{"name": "inst_3693BD20","id": "93792414-92a0-43b9-b1f0-45f762303559","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3693BD20","objId": "c02a253f-114b-4c40-b438-638d9dfa94f3","properties": [{"id": "1f4d6e6c-0db1-4697-86e9-af055cd1974b","modelName": "GMOverriddenProperty","objectId": "c02a253f-114b-4c40-b438-638d9dfa94f3","propertyId": "8c12ddc1-df0c-45dc-9cad-e8b5dfb5e26b","mvc": "1.0","value": "room_alley2"},{"id": "ca29a2f5-08bb-4a78-8cd8-4548c9739520","modelName": "GMOverriddenProperty","objectId": "c02a253f-114b-4c40-b438-638d9dfa94f3","propertyId": "70810d87-54e6-4843-9b4e-1871d8bb1735","mvc": "1.0","value": "spr_e_key_right"}],"rotation": 0,"scaleX": 1,"scaleY": 5,"mvc": "1.0","x": 1001,"y": 308},
+{"name": "inst_1897F024","id": "4b1e865d-a274-4625-87d6-995dc3bc1158","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1897F024","objId": "f0b007af-3939-4e36-9287-dadcd97069e7","properties": [{"id": "abcbea2f-4fb7-4664-96bb-8ed0bfbb2f4f","modelName": "GMOverriddenProperty","objectId": "f0b007af-3939-4e36-9287-dadcd97069e7","propertyId": "ca594273-db76-4cba-9578-4f57c03681b1","mvc": "1.0","value": "Memory 2578"},{"id": "a6c6c4ff-1642-4fe4-9018-1d703ef4ae8a","modelName": "GMOverriddenProperty","objectId": "f0b007af-3939-4e36-9287-dadcd97069e7","propertyId": "b39881f2-8827-4e36-ae6c-44b3482b2e9b","mvc": "1.0","value": "'I really like Van Gogh Paintings'"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 200,"y": 183}
             ],
             "layers": [
 

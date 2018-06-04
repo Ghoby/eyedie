@@ -2,6 +2,8 @@
 // You can write your code in this editor
 event_inherited();
 
+ui_icon.y = ui_icon.y + 20;
+
 journalText = "D. actually stands for Diane. She apparently knows something about my wife's murder that I don't. I need to figure what it is.";
 // Character introduction:
 myName = "Diane";

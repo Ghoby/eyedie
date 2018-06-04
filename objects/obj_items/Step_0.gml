@@ -23,6 +23,8 @@ if( place_meeting(x, y, obj_joe) && visible == true ){
 			inventory_add_item(self);
 			global.itemPause = true;
 			instance_deactivate_object(self);
+			instance_destroy(long_overlay);
+			instance_destroy(short_overlay);
 		}
 	}
 }

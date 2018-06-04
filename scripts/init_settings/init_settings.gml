@@ -28,3 +28,20 @@ ds_map_add(global.room_limits_map, room_apartment_room25, [ROOM_APART_ROOM_MIN, 
 ds_map_add(global.room_limits_map, room_alley2, [ROOM_ALLEY2_MIN, ROOM_ALLEY2_MAX]);
 
 // 
+global.music_map = ds_map_create();
+
+ds_map_add(global.music_map, room_city, level1Music);
+ds_map_add(global.music_map, room_city2, level1Music);
+ds_map_add(global.music_map, room_bar, level2Music);
+ds_map_add(global.music_map, room_apartment_lobby, insideMusic);
+ds_map_add(global.music_map, room_apartment_corridor, insideMusic);
+ds_map_add(global.music_map, room_apartment_room25, insideMusic);
+
+global.ambient_sound_map = ds_map_create();
+
+ds_map_add(global.ambient_sound_map, room_city, street_sound);
+ds_map_add(global.ambient_sound_map, room_city2, street_sound);
+ds_map_add(global.ambient_sound_map, room_bar, empty_back);
+ds_map_add(global.ambient_sound_map, room_apartment_lobby, apartment_sound);
+ds_map_add(global.ambient_sound_map, room_apartment_corridor, apartment_sound);
+ds_map_add(global.ambient_sound_map, room_apartment_room25, apartment_sound);

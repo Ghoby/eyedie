@@ -11,6 +11,7 @@ if(myTextbox != noone && myTextbox.joeDialogueTurn == false && hasMetJoe == fals
       obj_joe.inConversation = false;
 	  myTextbox.destroyFlag = true;
 	  hasMetJoe = true;
+	  global.jackie_is_pised = true;
     }
   } 
 } else if (myTextbox.joeDialogueTurn == false && hasMetJoe == true){
